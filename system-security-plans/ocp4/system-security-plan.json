@@ -1,0 +1,134 @@
+{
+  "system-security-plan": {
+    "uuid": "23368566-20cf-4cc7-b711-d68422e4b282",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2022-10-14T14:29:10.117250+11:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.0"
+    },
+    "import-profile": {
+      "href": "REPLACE_ME"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": "REPLACE_ME"
+        }
+      ],
+      "system-name": "REPLACE_ME",
+      "description": "REPLACE_ME",
+      "security-sensitivity-level": "REPLACE_ME",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "REPLACE_ME",
+            "description": "REPLACE_ME",
+            "confidentiality-impact": {
+              "base": "REPLACE_ME"
+            },
+            "integrity-impact": {
+              "base": "REPLACE_ME"
+            },
+            "availability-impact": {
+              "base": "REPLACE_ME"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "REPLACE_ME",
+        "security-objective-integrity": "REPLACE_ME",
+        "security-objective-availability": "REPLACE_ME"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "REPLACE_ME"
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "4939635f-d215-4fa9-877a-f43d30a82c0e"
+        }
+      ],
+      "components": [
+        {
+          "uuid": "bb41dc80-372b-48ba-847e-8702a2809a0a",
+          "type": "this-system",
+          "title": "This System",
+          "description": "This System",
+          "status": {
+            "state": "under-development"
+          }
+        },
+        {
+          "uuid": "d3a5fa8f-4a04-4b65-877e-76596d9e695b",
+          "type": "Service",
+          "title": "OSCO",
+          "description": "OSCO",
+          "status": {
+            "state": "under-development"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "This is the control implementation for the system.",
+      "implemented-requirements": [
+        {
+          "uuid": "117c49ad-9e1a-49f2-86e4-6cfac6accf76",
+          "control-id": "CIS-1.1.1",
+          "by-components": [
+            {
+              "component-uuid": "d3a5fa8f-4a04-4b65-877e-76596d9e695b",
+              "uuid": "a43b8aae-6bdb-4628-886a-ef16e1172d1b",
+              "description": "",
+              "props": [
+                {
+                  "name": "Rule_Id",
+                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                  "value": "file_permissions_kube_apiserver",
+                  "class": "rule_name_id"
+                }
+              ],
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "117c49ad-9e1a-49f2-86e4-6cfac6accf77",
+          "control-id": "CIS-1.1.2",
+          "by-components": [
+            {
+              "component-uuid": "d3a5fa8f-4a04-4b65-877e-76596d9e695b",
+              "uuid": "a43b8aae-6bdb-4628-886a-ef16e1172d2c",
+              "description": "",
+              "props": [
+                {
+                  "name": "Rule_Id",
+                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                  "value": "file_owner_kube_apiserver",
+                  "class": "rule_name_id"
+                },
+                {
+                  "name": "Rule_Id",
+                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                  "value": "file_groupowner_kube_apiserver",
+                  "class": "rule_name_id"
+                }
+              ],
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
