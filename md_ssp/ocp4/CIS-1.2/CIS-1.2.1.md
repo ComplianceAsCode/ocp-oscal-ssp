@@ -72,7 +72,7 @@ ______________________________________________________________________
 
 ### This System
 
-<!-- Add implementation prose for the main This System component for control: CIS-1.2.1 -->
+My prose
 
 #### Implementation Status: planned
 

@@ -27,7 +27,7 @@ function github-branch-commit() {
         return 1
     fi
 
-    if ! git add ssp; then
+    if ! git add system-security-plans; then
         err "failed to add modified files to git index"
         return 1
     fi
