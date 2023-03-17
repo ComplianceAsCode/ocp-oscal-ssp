@@ -3,7 +3,7 @@
     "uuid": "23368566-20cf-4cc7-b711-d68422e4b282",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-03-17T12:36:45.508222+11:00",
+      "last-modified": "2023-03-17T01:49:34.330424+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.0"
     },
@@ -7644,7 +7644,7 @@
             {
               "component-uuid": "bb41dc80-372b-48ba-847e-8702a2809a0a",
               "uuid": "5bb9f791-94eb-40ba-867a-02532a83f3bd",
-              "description": "",
+              "description": "My prose",
               "implementation-status": {
                 "state": "planned"
               }
